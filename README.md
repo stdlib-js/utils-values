@@ -20,7 +20,7 @@ limitations under the License.
 
 # Object Values
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Return an array of an object's own enumerable property values.
 
@@ -103,8 +103,8 @@ var vals = objectValues( obj );
 
 ## See Also
 
--   [`@stdlib/utils/entries`][@stdlib/utils/entries]: return an array of an object's own enumerable property key-value pairs.
--   [`@stdlib/utils/keys`][@stdlib/utils/keys]: return an array of an object's own enumerable property names.
+-   <span class="package-name">[`@stdlib/utils/entries`][@stdlib/utils/entries]</span><span class="delimiter">: </span><span class="description">return an array of an object's own enumerable property key-value pairs.</span>
+-   <span class="package-name">[`@stdlib/utils/keys`][@stdlib/utils/keys]</span><span class="delimiter">: </span><span class="description">return an array of an object's own enumerable property names.</span>
 
 </section>
 
@@ -155,8 +155,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/utils-values/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/utils-values?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/utils-values.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/utils-values/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
