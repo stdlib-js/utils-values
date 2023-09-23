@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import objectValues from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-values@esm/index.mjs';
+import objectValues from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-values@v0.1.0-esm/index.mjs';
 ```
 
 #### objectValues( obj )
@@ -85,7 +85,7 @@ var vals = objectValues( obj );
 <body>
 <script type="module">
 
-import objectValues from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-values@esm/index.mjs';
+import objectValues from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-values@v0.1.0-esm/index.mjs';
 
 var obj = {
     'beep': 'boop',
