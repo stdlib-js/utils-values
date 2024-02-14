@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import objectValues from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-values@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-values/tags). For example,
+
+```javascript
 import objectValues from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-values@v0.2.0-esm/index.mjs';
 ```
 
@@ -85,7 +90,7 @@ var vals = objectValues( obj );
 <body>
 <script type="module">
 
-import objectValues from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-values@v0.2.0-esm/index.mjs';
+import objectValues from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-values@esm/index.mjs';
 
 var obj = {
     'beep': 'boop',
