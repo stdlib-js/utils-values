@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import objectValues from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-values@deno/mod.js';
+import objectValues from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-values@v0.2.1-deno/mod.js';
 ```
 
 #### objectValues( obj )
@@ -80,7 +80,7 @@ var vals = objectValues( obj );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import objectValues from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-values@deno/mod.js';
+import objectValues from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-values@v0.2.1-deno/mod.js';
 
 var obj = {
     'beep': 'boop',
