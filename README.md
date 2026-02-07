@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import objectValues from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-values@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-values/tags). For example,
+
+```javascript
 import objectValues from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-values@v0.2.3-deno/mod.js';
 ```
 
@@ -80,7 +85,7 @@ var vals = objectValues( obj );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import objectValues from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-values@v0.2.3-deno/mod.js';
+import objectValues from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-values@deno/mod.js';
 
 var obj = {
     'beep': 'boop',
